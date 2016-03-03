@@ -48,7 +48,7 @@ class LightTool():
 	def CharProp( self, *args ):
 		
 		cam_pos = 'CAM:POS'
-		charprop_list = ['charprop_default_lights:char_camera_forlighting', 'charprop_default_lights:prop_camera_forlighting','charprop_default_lights:rim_camera_forlighting']
+		charprop_list = []
 
 		#Iterate through the list and parent them
 		for index in charprop_list:
@@ -79,7 +79,7 @@ class LightTool():
 			
 
 			#create suffix list to hold camera names
-			name_suffix = [':set_camera_forlighting', ':setrim_camera_forlighting']
+			name_suffix = []
 
 			#Iterate through the list and add the user input
 			for index in name_suffix:
