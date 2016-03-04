@@ -47,7 +47,7 @@ class LightTool():
 	
 	def CharProp( self, *args ):
 		
-		cam_pos = 'CAM:POS'
+		cam_pos = ''
 		charprop_list = []
 
 		#Iterate through the list and parent them
